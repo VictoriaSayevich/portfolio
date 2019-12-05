@@ -1,0 +1,1405 @@
+@font-face {
+  font-family: 'Yeseva-one';
+  src: url("../assets/fonts/Yeseva One Regular.ttf") format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'FuturaBookC';
+  src: url("../assets/fonts/futurabookc.otf") format("truetype");
+  font-weight: lighter;
+}
+
+.section_online_control, .section_types_of_repair, .section_design_projects, .section_steps_working, .section_our_team, .section_our_clients, .section_form_question, .section_contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn, .btn_second {
+  background: #E3B873;
+  padding: 15px 25px;
+  width: 15%;
+  border: none;
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  font: bold 0.9rem "FuturaBookC";
+}
+
+.menu_page_switcher, .second_screen .menu_projects_switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu_page_switcher li, .second_screen .menu_projects_switcher li {
+  padding: 0 30px 0 0;
+  list-style: none;
+}
+
+.menu_page_switcher li a, .second_screen .menu_projects_switcher a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.section_online_control .background_block, .section_design_projects .background_block {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background: #131313;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+.mobile_form {
+  display: none;
+}
+
+body {
+  font-family: "FuturaBookC";
+  color: #E3B873;
+  background: #131313;
+  padding: 0;
+  margin: 0;
+}
+
+body h1 {
+  font: lighter 2.2rem "Yeseva-one";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  margin: 0;
+}
+
+body h1 span {
+  color: #E3B873;
+}
+
+body h2 {
+  font: lighter 1.8rem "Yeseva-one";
+  color: #E3B873;
+  text-transform: uppercase;
+  letter-spacing: -0.8px;
+  margin: 0;
+}
+
+body h3 {
+  font: lighter 1.5rem "Yeseva-one";
+  color: #E3B873;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin: 0;
+}
+
+body p {
+  font: lighter 1.3rem "FuturaBookC";
+  line-height: 30px;
+  color: #fff;
+}
+
+body a:hover {
+  opacity: 0.6;
+}
+
+body button:hover {
+  opacity: 0.6;
+}
+
+header,
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 50px;
+}
+
+header a,
+footer a {
+  color: #E3B873;
+  font-size: 0.9em;
+}
+
+header a p,
+footer a p {
+  font-size: 0.9rem;
+  color: #E3B873;
+}
+
+header h4,
+footer h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+header .btn,
+footer .btn {
+  margin: 0;
+  padding: 10px 15px;
+  width: 15%;
+}
+
+.btn_second {
+  border: 1px solid #fff;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.menu_page_switcher {
+  font-size: 1rem;
+}
+
+.menu_page_switcher li a.menu_page_switcher--item--link-selected {
+  color: #E3B873;
+}
+
+.main_screen {
+  position: relative;
+  background: url("../assets/images/main_img_with_effect.png") no-repeat;
+  background-size: cover;
+  height: 45vh;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 200px 60px;
+}
+
+.main_screen .img_effect {
+  width: 100%;
+  height: 45vh;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-left: 50px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.main_screen aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: -150px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.main_screen aside p {
+  padding: 0 40px;
+  margin: 0;
+  color: #E3B873;
+  text-transform: uppercase;
+}
+
+.main_screen aside .line {
+  padding: 0;
+}
+
+.main_screen .buttons {
+  margin: 45px 0 0 0;
+}
+
+.main_screen .buttons .btn {
+  margin-right: 20px;
+  width: 20%;
+}
+
+.main_screen .buttons .btn_second {
+  width: 20%;
+}
+
+.main_screen .scroll_down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #131313;
+  padding: 10px 30px 10px 0;
+  width: 15%;
+}
+
+.main_screen .scroll_down p {
+  font: 1rem "Yeseva-one";
+  text-transform: uppercase;
+}
+
+.main_screen .scroll_down i {
+  font-size: 1.5rem;
+}
+
+.line {
+  width: 60px;
+  padding-top: 20px;
+  border-bottom: 1px solid #E3B873;
+}
+
+.slider {
+  padding: 30px 20px 20px 60px;
+}
+
+.slider img {
+  width: 90%;
+}
+
+.slider_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.slider_btn-item {
+  padding: 15px;
+  font-size: 0.5rem;
+  color: #5f5f5f;
+}
+
+.slider_btn-item:first-child, .slider_btn-item:last-child {
+  font-size: 2.5rem;
+}
+
+.slider_btn-item.active {
+  color: #fff;
+}
+
+.second_screen {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 5fr;
+      grid-template-columns: 3fr 5fr;
+  padding: 90px 0 250px;
+}
+
+.second_screen .header_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second_screen .article_completed_projects {
+  position: relative;
+  padding: 30px 20px 0px 100px;
+}
+
+.second_screen .article_completed_projects p {
+  padding: 20px 0 40px 0;
+}
+
+.second_screen .article_completed_projects--menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+
+.second_screen .article_completed_projects--menu div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 40px;
+}
+
+.second_screen .article_completed_projects--menu div p {
+  margin: 10px 0 40px 0;
+  line-height: 1;
+  padding: 0;
+}
+
+.second_screen .menu_projects_switcher {
+  padding-left: 60px;
+}
+
+.second_screen .menu_projects_switcher li {
+  padding: 0 60px 0 0;
+}
+
+.second_screen .menu_projects_switcher a {
+  color: #E3B873;
+  font-family: "Yeseva-one";
+  font-size: 1rem;
+  line-height: 25px;
+  letter-spacing: -0.8px;
+}
+
+.second_screen .menu_projects_switcher a.menu_projects_switcher--item--link-selected {
+  border-bottom: 1px solid #E3B873;
+  padding-bottom: 3px;
+}
+
+.second_screen .menu_projects_switcher a.menu_projects_switcher--item--link {
+  color: #fff;
+  opacity: 0.3;
+}
+
+.section_online_control {
+  background: #fff;
+  padding: 90px 0;
+  margin: -250px 0 0;
+  position: relative;
+}
+
+.section_online_control .background_block {
+  top: 0;
+}
+
+.section_online_control h2 {
+  color: #fff;
+  z-index: 1;
+}
+
+.section_online_control img {
+  padding: 20px 0;
+  z-index: 1;
+}
+
+.section_online_control .video {
+  z-index: 1;
+}
+
+.section_online_control .video img {
+  width: 100%;
+}
+
+.section_online_control p {
+  color: #131313;
+  width: 35%;
+  text-align: center;
+  padding: 0 0 60px 0;
+}
+
+.section_online_control .line {
+  margin: 50px 0 30px;
+}
+
+.section_online_control form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section_online_control form .my_fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+}
+
+.section_online_control form .my_fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 50px 0 0;
+}
+
+.section_online_control form .my_fieldset div label {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.section_online_control form .my_fieldset div input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px 0;
+}
+
+.section_online_control form .my_fieldset div input::-webkit-input-placeholder {
+  color: #131313;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+.section_online_control form .my_fieldset div input:-ms-input-placeholder {
+  color: #131313;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+.section_online_control form .my_fieldset div input::-ms-input-placeholder {
+  color: #131313;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+.section_online_control form .my_fieldset div input::placeholder {
+  color: #131313;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+.section_online_control form .my_fieldset .btn {
+  width: 180px;
+  font-size: 0.8rem;
+}
+
+.section_online_control form .agreement {
+  padding: 20px 0 30px;
+  position: relative;
+}
+
+.section_online_control form .agreement label {
+  color: #131313;
+}
+
+.section_online_control form .agreement.mobile {
+  display: none;
+}
+
+.section_usp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr 5fr;
+      grid-template-columns: 6fr 5fr;
+  background: #fff;
+  padding-bottom: 200px;
+}
+
+.section_usp .usp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1440px;
+}
+
+.section_usp .usp--left {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.section_usp .usp--left-p {
+  position: absolute;
+  font: 1rem "FuturaBookC";
+  color: #131313;
+  z-index: 1;
+}
+
+.section_usp .usp--left-p:first-of-type {
+  top: 13%;
+  left: 49.5%;
+}
+
+.section_usp .usp--left-p:first-of-type + p {
+  top: 34%;
+  left: 56.5%;
+}
+
+.section_usp .usp--left-p:first-of-type + p + p {
+  top: 60%;
+  left: 56.5%;
+}
+
+.section_usp .usp--left-p:first-of-type + p + p + p {
+  top: 83%;
+  left: 48.5%;
+}
+
+.section_usp .usp--left--circle {
+  position: relative;
+}
+
+.section_usp .usp--left--circle--wrp-litle {
+  position: absolute;
+  z-index: 2;
+  width: 9%;
+  height: 9%;
+  background-color: #E3B873;
+  border-radius: 100%;
+  border: 10px solid white;
+}
+
+.section_usp .usp--left--circle--wrp-litle P {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  margin-top: -0.5em;
+  font: 1rem "Yeseva-one";
+  color: #fff;
+}
+
+.section_usp .usp--left--circle--wrp-litle:first-of-type {
+  top: 10%;
+  left: 80.5%;
+  text-align: center;
+}
+
+.section_usp .usp--left--circle--wrp-litle:first-of-type + div {
+  left: 91%;
+  top: 30%;
+  text-align: center;
+  vertical-align: center;
+}
+
+.section_usp .usp--left--circle--wrp-litle:first-of-type + div + div {
+  top: 55%;
+  left: 91.5%;
+  text-align: center;
+  vertical-align: center;
+}
+
+.section_usp .usp--left--circle--wrp-litle:first-of-type + div + div + div {
+  top: 78%;
+  left: 79.5%;
+  text-align: center;
+  vertical-align: center;
+}
+
+.section_usp .usp--left--circle {
+  position: relative;
+  right: 18.11%;
+  width: 70%;
+  height: 70%;
+  background-color: inherit;
+  border: 2px solid #E3B873;
+  border-radius: 100%;
+}
+
+.section_usp .usp--left--circle img {
+  z-index: -1;
+  margin: 0 0 30px 25.11%;
+  width: 100%;
+  height: auto;
+}
+
+form {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form fieldset {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article_text--element {
+  z-index: 1;
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px 60px 40px 20px;
+}
+
+.article_text--element h3 {
+  color: #131313;
+  padding: 20px;
+  font-family: "Yeseva-one";
+}
+
+.article_text--element ul {
+  margin: 0;
+}
+
+.article_text--element ul li {
+  color: rgba(0, 0, 0, 0.42);
+  padding: 3px;
+}
+
+.article_text .btn {
+  width: 220px;
+  margin-top: -20px;
+  z-index: 1;
+  position: relative;
+  font-size: 0.9rem;
+  padding: 18px;
+  font-family: "Yeseva-one";
+  letter-spacing: 1px;
+}
+
+.section_types_of_repair {
+  background: #fff;
+  padding-bottom: 120px;
+}
+
+.section_types_of_repair h2 {
+  color: #131313;
+}
+
+.section_types_of_repair img {
+  padding: 20px 0;
+}
+
+.section_types_of_repair--article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_types_of_repair--article-item {
+  margin: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_types_of_repair--article-item img {
+  width: 100%;
+}
+
+.section_types_of_repair--article-item .article_text {
+  margin-top: -170px;
+}
+
+.section_types_interior {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 7fr 5fr;
+      grid-template-columns: 7fr 5fr;
+  background: #fff;
+  background: url("../assets/images/img_interior.png") no-repeat;
+  background-size: cover;
+}
+
+.section_types_interior--article {
+  padding: 90px 90px 0;
+}
+
+.section_types_interior--article-menu {
+  padding: 0;
+}
+
+.section_types_interior--article-menu li {
+  list-style: none;
+  padding: 20px 0;
+}
+
+.section_types_interior--article-menu-link {
+  color: #b4b4b4;
+  text-decoration: none;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  line-height: 19px;
+}
+
+.section_types_interior--article-menu-link-selected {
+  color: #E3B873;
+  text-decoration: underline;
+  font-size: 1.6rem;
+}
+
+.section_types_interior--img_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 40px;
+}
+
+.section_types_interior--img_elements div {
+  padding: 0;
+  margin: 0;
+}
+
+.section_types_interior--img_elements img {
+  width: calc(100% - 40px);
+}
+
+.section_types_interior--img_elements img:first-child {
+  margin: 0 0 40px;
+}
+
+.section_types_interior--img_elements img:last-child {
+  margin: 0 0 -40px;
+}
+
+.section_types_interior--img_elements .item1 {
+  margin-top: 40px;
+}
+
+.section_types_interior--img_elements .item2 {
+  margin-top: -130px;
+}
+
+.section_design_projects {
+  background: #fff;
+  padding: 150px 0 40px;
+  position: relative;
+  z-index: -1;
+}
+
+.section_design_projects h2 {
+  color: #131313;
+  z-index: 1;
+}
+
+.section_design_projects img {
+  padding: 20px 0;
+  z-index: 1;
+}
+
+.section_design_projects p {
+  color: #131313;
+  width: 45%;
+  text-align: center;
+  padding: 0;
+  z-index: 1;
+}
+
+.section_design_projects .background_block {
+  height: 50%;
+  bottom: 0;
+}
+
+.section_design_projects--article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
+
+.section_design_projects--article-item {
+  margin: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_design_projects--article-item img {
+  width: 100%;
+}
+
+.section_design_projects--article-item .article_text {
+  margin-top: -170px;
+  width: 85%;
+}
+
+.section_steps_working {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 5fr;
+      grid-template-columns: 3fr 5fr;
+}
+
+.section_steps_working--article {
+  padding: 0 20px 0 0;
+  position: relative;
+}
+
+.section_steps_working--article .slider_btn {
+  bottom: -60px;
+}
+
+.section_steps_working--article .h5_pred {
+  font-family: "FuturaBookC";
+  padding-bottom: 10px;
+}
+
+.section_steps_working--article h3 {
+  font-family: "Yeseva-one";
+  margin-bottom: 120px;
+}
+
+.section_steps_working--article h5 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Yeseva-one";
+}
+
+.section_steps_working--article h4 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-family: "Yeseva-one";
+  text-transform: uppercase;
+}
+
+.section_steps_working--article img {
+  width: 90%;
+}
+
+.section_steps_working--article .p_steps {
+  padding-right: 20px;
+}
+
+.section_steps_working--article--steps {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 0 50px;
+}
+
+.section_steps_working--article--steps-item {
+  color: rgba(255, 255, 255, 0.3);
+  padding: 0 0 20px;
+}
+
+.section_steps_working--article--steps-item .number_step {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: underline;
+  margin: 0;
+}
+
+.section_steps_working--article--steps-item .text_step {
+  color: rgba(255, 255, 255, 0.3);
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 85%;
+}
+
+.section_steps_working--article--steps-item-selected p {
+  margin: 0;
+  color: #fff;
+}
+
+.article_text_team--element {
+  margin: 0 20px;
+  text-align: center;
+  background: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.article_text_team--element img {
+  width: 100%;
+}
+
+.article_text_team--element h4 {
+  font-family: "Yeseva-one";
+  color: #131313;
+  font-size: 1.1rem;
+  padding: 30px 0 0 0;
+  margin: 0;
+}
+
+.article_text_team--element p {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.article_text_team--element .my_label {
+  background: #E3B873;
+  color: #fff;
+  font-family: "Yeseva-one";
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 15px;
+}
+
+.text_after_section {
+  color: #131313;
+  width: 45%;
+  text-align: center;
+  padding: 0;
+}
+
+.section_our_team {
+  background: #fff;
+  padding: 90px 0;
+}
+
+.section_our_team h2 {
+  color: #131313;
+}
+
+.section_our_team .team_img_icon {
+  padding: 20px 0;
+}
+
+.section_our_team .team_p {
+  color: #131313;
+  width: 45%;
+  text-align: center;
+  padding: 0;
+}
+
+.section_our_team--article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_our_team--article-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 40px;
+}
+
+.section_our_team--article-item img.icon {
+  -webkit-box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+          box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+  position: relative;
+  z-index: 1;
+  left: -50%;
+  top: 7%;
+}
+
+.section_our_team--article-item .article_text_team--element {
+  margin-top: -50px;
+}
+
+.clients_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clients_name h4 {
+  font-family: "Yeseva-one";
+  color: #131313;
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.clients_name .circle_client {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: none;
+  margin: 0;
+}
+
+.section_our_clients {
+  background: #fff;
+}
+
+.section_our_clients .header_clients {
+  color: #131313;
+}
+
+.section_our_clients .img_icon_cliets {
+  padding: 20px 0;
+}
+
+.section_our_clients .p_clients {
+  color: #131313;
+  width: 45%;
+  text-align: center;
+  padding: 0;
+}
+
+.section_our_clients--element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section_our_clients--element .article_text {
+  margin: 0 20px;
+  width: 25%;
+}
+
+.section_our_clients--element .my_label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -40px;
+  z-index: 30;
+  position: relative;
+}
+
+.section_our_clients--element .my_label p {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #E3B873;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 10px;
+  font-family: "Yeseva-one";
+  letter-spacing: 1px;
+  -webkit-box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+          box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.section_our_clients--element .my_label p:first-child {
+  border-right: 1px solid #fff;
+}
+
+.section_our_clients--element .my_label p img {
+  padding: 0 10px;
+  width: 20%;
+}
+
+.section_our_clients--element .article_text--element {
+  padding: 30px;
+}
+
+.section_our_clients--element .article_text--element p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.my_form {
+  background: #131313;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 25px 25px;
+  margin: 0 10%;
+}
+
+.my_form .agreement {
+  padding-left: 10px;
+}
+
+.my_form p {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 50%;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.my_form .btn {
+  width: 200px;
+  position: relative;
+  right: 0;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+.my_form .btn:hover {
+  opacity: 90%;
+}
+
+.my_form fieldset {
+  padding-bottom: 40px;
+}
+
+.my_form fieldset label {
+  opacity: 0.5;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  padding: 5px 0;
+}
+
+.my_form fieldset input {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 3px 0;
+  width: 320px;
+  background: none;
+  margin-bottom: 20px;
+}
+
+.my_form fieldset input::-webkit-input-placeholder {
+  color: #fff;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.my_form fieldset input:-ms-input-placeholder {
+  color: #fff;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.my_form fieldset input::-ms-input-placeholder {
+  color: #fff;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.my_form fieldset input::placeholder {
+  color: #fff;
+  font-family: "FuturaBookC";
+  padding: 5px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.section_form_question {
+  background: #fff;
+  padding: 90px;
+}
+
+.section_form_question form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #131313;
+  width: 50%;
+  padding: 20px;
+}
+
+.section_form_question form h3 {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.section_form_question form .agreement {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.section_form_question form .btn {
+  width: 200px;
+}
+
+.section_form_question form fieldset {
+  border: none;
+  width: 80%;
+  padding: 20px 20px 40px;
+}
+
+.section_form_question form fieldset .name_phone_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.section_form_question form fieldset .label_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section_form_question form fieldset .label_input input {
+  width: 230px;
+}
+
+.section_form_question form fieldset label {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 5px 0;
+}
+
+.section_form_question form fieldset input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.section_form_question form fieldset input::-webkit-input-placeholder {
+  padding: 0 0 10px 0;
+  color: #fff;
+}
+
+.section_form_question form fieldset input:-ms-input-placeholder {
+  padding: 0 0 10px 0;
+  color: #fff;
+}
+
+.section_form_question form fieldset input::-ms-input-placeholder {
+  padding: 0 0 10px 0;
+  color: #fff;
+}
+
+.section_form_question form fieldset input::placeholder {
+  padding: 0 0 10px 0;
+  color: #fff;
+}
+
+.section_form_question form fieldset textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  resize: none;
+}
+
+.section_form_question form fieldset textarea::-webkit-input-placeholder {
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "FuturaBookC";
+}
+
+.section_form_question form fieldset textarea:-ms-input-placeholder {
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "FuturaBookC";
+}
+
+.section_form_question form fieldset textarea::-ms-input-placeholder {
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "FuturaBookC";
+}
+
+.section_form_question form fieldset textarea::placeholder {
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "FuturaBookC";
+}
+
+.section_form_question form fieldset.desktop {
+  display: none;
+}
+
+.section_contacts {
+  background-image: url("../assets/images/image 7.2.png");
+}
+
+.section_contacts h3 {
+  padding: 40px 0 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.section_contacts .icons img {
+  width: 30px;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=style.css.map */
