@@ -8,7 +8,6 @@ const count_items = slider_items.length;
 const education = document.querySelector('.education-header'),
     education_item = document.querySelector('.education--card');
 
-
 function HideItem(item) {
     item.classList.remove('active');
 }
