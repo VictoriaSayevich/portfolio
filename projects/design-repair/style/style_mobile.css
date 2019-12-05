@@ -1,483 +1,481 @@
 @import url("./style.css");
 @media (max-width: 380px) {
-    .mobile {
-        display: block;
-    }
-    .desktop {
-        display: none;
-    }
-    body h1 {
-        font-size: 1.3rem;
-    }
-    body h2 {
-        font-size: 1.2rem;
-    }
-    body h3 {
-        font-size: 0.9rem;
-    }
-    body p {
-        padding: 0;
-        margin: 0;
-        font-size: 0.9rem;
-        line-height: 20px;
-    }
-    .mobile {
-        display: block;
-    }
-    header,
-    footer {
-        padding: 25px 20px;
-    }
-    header a,
-    footer a {
-        color: #fff;
-    }
-    header a p,
-    footer a p {
-        color: #fff;
-    }
-    header h4,
-    footer h4 {
-        font-size: 0.7rem;
-        margin: 0;
-    }
-    header .menu_page_switcher,
-    footer .menu_page_switcher {
-        display: none;
-    }
-    header .btn,
-    footer .btn {
-        display: none;
-    }
-    .main_screen {
-        margin: 0;
-        padding: 0 20px;
-    }
-    .main_screen .img_effect {
-        margin: 0;
-    }
-    .main_screen h1 {
-        font-size: 1.3rem;
-        margin: 20px 0;
-    }
-    .main_screen aside {
-        display: none;
-    }
-    .main_screen .scroll_down {
-        display: none;
-    }
-    .main_screen .buttons {
-        margin: 20px 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  body h1 {
+    font-size: 1.3rem;
+  }
+  body h2 {
+    font-size: 1.2rem;
+  }
+  body h3 {
+    font-size: 0.9rem;
+  }
+  body p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .mobile {
+    display: block;
+  }
+  header,
+  footer {
+    padding: 25px 20px;
+  }
+  header a,
+  footer a {
+    color: #fff;
+  }
+  header a p,
+  footer a p {
+    color: #fff;
+  }
+  header h4,
+  footer h4 {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  header .menu_page_switcher,
+  footer .menu_page_switcher {
+    display: none;
+  }
+  header .btn,
+  footer .btn {
+    display: none;
+  }
+  .main_screen {
+    margin: 0;
+    padding: 0 20px;
+  }
+  .main_screen .img_effect {
+    margin: 0;
+  }
+  .main_screen h1 {
+    font-size: 1.3rem;
+    margin: 20px 0;
+  }
+  .main_screen aside {
+    display: none;
+  }
+  .main_screen .scroll_down {
+    display: none;
+  }
+  .main_screen .buttons {
+    margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
+            flex-direction: column;
+    -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center;
-    }
-    .main_screen .buttons .btn {
-        width: 100%;
-        margin: 20px 0;
-        font-size: 0.8rem;
-    }
-    .main_screen .buttons .btn_second {
-        width: 100%;
-    }
-    .second_screen {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            align-items: center;
+  }
+  .main_screen .buttons .btn {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 0.8rem;
+  }
+  .main_screen .buttons .btn_second {
+    width: 100%;
+  }
+  .second_screen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        padding: 30px 20px;
-    }
-    .second_screen .header_name {
-        -webkit-box-pack: center;
+            flex-direction: column;
+    padding: 30px 20px;
+  }
+  .second_screen .header_name {
+    -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center;
-    }
-    .second_screen .header_name h2 {
-        text-align: center;
-        padding: 20px 0;
-    }
-    .second_screen .header_name .line {
-        display: none;
-    }
-    .second_screen .article_completed_projects {
-        padding: 0;
-    }
-    .second_screen .article_completed_projects p {
-        text-align: center;
-        width: 80%;
-        margin: 0 auto;
-        padding: 10px 0;
-    }
-    .second_screen .article_completed_projects .slider_btn {
-        display: none;
-    }
-    .second_screen .article_completed_projects--menu div {
-        margin: 0;
-        padding: 20px 0;
-    }
-    .second_screen .article_completed_projects--menu div h3 {
-        margin: 0 0 10px;
-    }
-    .second_screen .article_completed_projects--menu div p {
-        text-align: left;
-        margin: 0;
-    }
-    .second_screen .slider {
-        padding: 20px 0;
-    }
-    .second_screen .slider.desktop {
-        display: none;
-    }
-    .second_screen .slider.mobile {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .second_screen .slider img {
-        width: 100%;
-    }
-    .second_screen .menu_projects_switcher {
-        display: none;
-    }
-    .section_online_control {
-        background: #131313;
-        padding: 0 20px 60px 20px;
-        margin: 0;
-    }
-    .section_online_control .background_block {
-        display: none;
-    }
-    .section_online_control p {
-        color: #fff;
-        width: 100%;
-        padding: 0;
-    }
-    .section_online_control .line {
-        margin: 20px auto;
-        padding: 0;
-    }
-    .section_online_control form {
-        width: 100%;
-        margin: 25px 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            justify-content: center;
+  }
+  .second_screen .header_name h2 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .second_screen .header_name .line {
+    display: none;
+  }
+  .second_screen .article_completed_projects {
+    padding: 0;
+  }
+  .second_screen .article_completed_projects p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .second_screen .article_completed_projects .slider_btn {
+    display: none;
+  }
+  .second_screen .article_completed_projects--menu div {
+    margin: 0;
+    padding: 20px 0;
+  }
+  .second_screen .article_completed_projects--menu div h3 {
+    margin: 0 0 10px;
+  }
+  .second_screen .article_completed_projects--menu div p {
+    text-align: left;
+    margin: 0;
+  }
+  .second_screen .slider {
+    padding: 20px 0;
+  }
+  .second_screen .slider.desktop {
+    display: none;
+  }
+  .second_screen .slider.mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .second_screen .slider img {
+    width: 100%;
+  }
+  .second_screen .menu_projects_switcher {
+    display: none;
+  }
+  .section_online_control {
+    background: #131313;
+    padding: 0 20px 60px 20px;
+    margin: 0;
+  }
+  .section_online_control .background_block {
+    display: none;
+  }
+  .section_online_control p {
+    color: #fff;
+    width: 100%;
+    padding: 0;
+  }
+  .section_online_control .line {
+    margin: 20px auto;
+    padding: 0;
+  }
+  .section_online_control form {
+    width: 100%;
+    margin: 25px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: justify;
+            flex-direction: column;
+    -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: center;
+            justify-content: space-between;
+    -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center;
-    }
-    .section_online_control form .my_fieldset {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            align-items: center;
+  }
+  .section_online_control form .my_fieldset {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        width: calc(100% - 20px);
-    }
-    .section_online_control form .my_fieldset div {
-        margin: 20px 0;
-        width: 100%;
-    }
-    .section_online_control form .my_fieldset div label {
-        background: none;
-        margin-bottom: 3px;
-        color: rgba(255, 255, 255, 0.7);
-    }
-    .section_online_control form .my_fieldset div input {
-        background: none;
-        border: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-    }
-    .section_online_control form .my_fieldset div input::-webkit-input-placeholder {
-        padding: 0 0 10px 0;
-        color: #fff;
-    }
-    .section_online_control form .my_fieldset div input:-ms-input-placeholder {
-        padding: 0 0 10px 0;
-        color: #fff;
-    }
-    .section_online_control form .my_fieldset div input::-ms-input-placeholder {
-        padding: 0 0 10px 0;
-        color: #fff;
-    }
-    .section_online_control form .my_fieldset div input::placeholder {
-        padding: 0 0 10px 0;
-        color: #fff;
-    }
-    .section_online_control form .my_fieldset .agreement {
-        padding: 20px 0 30px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
+            flex-direction: column;
+    width: calc(100% - 20px);
+  }
+  .section_online_control form .my_fieldset div {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .section_online_control form .my_fieldset div label {
+    background: none;
+    margin-bottom: 3px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .section_online_control form .my_fieldset div input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  }
+  .section_online_control form .my_fieldset div input::-webkit-input-placeholder {
+    padding: 0 0 10px 0;
+    color: #fff;
+  }
+  .section_online_control form .my_fieldset div input:-ms-input-placeholder {
+    padding: 0 0 10px 0;
+    color: #fff;
+  }
+  .section_online_control form .my_fieldset div input::-ms-input-placeholder {
+    padding: 0 0 10px 0;
+    color: #fff;
+  }
+  .section_online_control form .my_fieldset div input::placeholder {
+    padding: 0 0 10px 0;
+    color: #fff;
+  }
+  .section_online_control form .my_fieldset .agreement {
+    padding: 20px 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
         -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-box-pack: start;
+            flex-direction: row;
+    -webkit-box-pack: start;
         -ms-flex-pack: start;
-        justify-content: flex-start;
-        position: static;
-        left: 10px;
-        width: 100%;
-    }
-    .section_online_control form .my_fieldset .agreement label {
-        margin-left: 10px;
-        color: rgba(255, 255, 255, 0.7);
-    }
-    .section_online_control form .my_fieldset .btn {
-        width: 100%;
-        margin: 0 0 -105px 0;
-    }
-    .section_usp {
-        display: none;
-    }
-    .article_text--element {
-        padding: 10px 10px 40px 10px;
-    }
-    .article_text--element h3 {
-        padding: 20px;
-    }
-    .article_text .btn {
-        width: 80%;
-        font-size: 0.8rem;
-        padding: 15px;
-    }
-    .section_types_of_repair {
-        padding: 50px 20px;
-    }
-    .section_types_of_repair--article {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            justify-content: flex-start;
+    position: static;
+    left: 10px;
+    width: 100%;
+  }
+  .section_online_control form .my_fieldset .agreement label {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .section_online_control form .my_fieldset .btn {
+    width: 100%;
+    margin: 0 0 -105px 0;
+  }
+  .section_usp {
+    display: none;
+  }
+  .article_text--element {
+    padding: 10px 10px 40px 10px;
+  }
+  .article_text--element h3 {
+    padding: 20px;
+  }
+  .article_text .btn {
+    width: 80%;
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+  .section_types_of_repair {
+    padding: 50px 20px;
+  }
+  .section_types_of_repair--article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .section_types_of_repair--article-item {
-        margin: 0 0 10px;
-        -webkit-box-align: start;
+            flex-direction: column;
+  }
+  .section_types_of_repair--article-item {
+    margin: 0 0 10px;
+    -webkit-box-align: start;
         -ms-flex-align: start;
-        align-items: flex-start;
-    }
-    .section_types_of_repair--article-item .article_text {
-        margin-top: -170px;
-        width: 85%;
-    }
-    .section_types_interior {
-        display: block;
-        background: #fff;
-        padding: 20px;
-    }
-    .section_types_interior--article {
-        padding: 0;
-    }
-    .section_types_interior--article h2 {
-        font: 1.4rem "Yeseva-one";
-        color: #E3B873;
-        text-align: center;
-        margin: 20px 0;
-    }
-    .section_types_interior--article-menu {
-        display: none;
-    }
-    .section_types_interior--img_elements {
-        padding: 0;
-    }
-    .section_types_interior img {
-        width: calc(100% - 20px);
-        z-index: 1;
-    }
-    .section_types_interior .item1 {
-        display: none;
-    }
-    .section_types_interior .item2 {
-        display: none;
-    }
-    .section_design_projects {
-        background: #131313;
-        top: -165px;
-        z-index: 0;
-        padding: 150px 20px 0;
-        margin-bottom: -130px;
-    }
-    .section_design_projects .background_block {
-        display: none;
-    }
-    .section_design_projects h2 {
-        color: #fff;
-    }
-    .section_design_projects p {
-        color: #b4b4b4;
-        font-size: 1rem;
-        width: 80%;
-    }
-    .section_design_projects--article {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            align-items: flex-start;
+  }
+  .section_types_of_repair--article-item .article_text {
+    margin-top: -170px;
+    width: 85%;
+  }
+  .section_types_interior {
+    display: block;
+    background: #fff;
+    padding: 20px;
+  }
+  .section_types_interior--article {
+    padding: 0;
+  }
+  .section_types_interior--article h2 {
+    font: 1.4rem "Yeseva-one";
+    color: #E3B873;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .section_types_interior--article-menu {
+    display: none;
+  }
+  .section_types_interior--img_elements {
+    padding: 0;
+  }
+  .section_types_interior img {
+    width: calc(100% - 20px);
+    z-index: 1;
+  }
+  .section_types_interior .item1 {
+    display: none;
+  }
+  .section_types_interior .item2 {
+    display: none;
+  }
+  .section_design_projects {
+    background: #131313;
+    top: -165px;
+    z-index: 0;
+    padding: 150px 20px 0;
+    margin-bottom: -130px;
+  }
+  .section_design_projects .background_block {
+    display: none;
+  }
+  .section_design_projects h2 {
+    color: #fff;
+  }
+  .section_design_projects p {
+    color: #b4b4b4;
+    font-size: 1rem;
+    width: 80%;
+  }
+  .section_design_projects--article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .section_design_projects--article-item {
-        margin: 0 0 10px;
-        -webkit-box-align: start;
+            flex-direction: column;
+  }
+  .section_design_projects--article-item {
+    margin: 0 0 10px;
+    -webkit-box-align: start;
         -ms-flex-align: start;
-        align-items: flex-start;
-    }
-    .section_design_projects--article-item .article_text {
-        margin-top: -170px;
-        width: 85%;
-    }
-    .section_steps_working {
-        display: none;
-    }
-    .section_our_team {
-        background: #131313;
-        padding: 20px;
-    }
-    .section_our_team h2 {
-        color: #fff;
-    }
-    .section_our_team .team_p {
-        color: #b4b4b4;
-        width: 85%;
-    }
-    .section_our_team--article {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            align-items: flex-start;
+  }
+  .section_design_projects--article-item .article_text {
+    margin-top: -170px;
+    width: 85%;
+  }
+  .section_steps_working {
+    display: none;
+  }
+  .section_our_team {
+    background: #131313;
+    padding: 20px;
+  }
+  .section_our_team h2 {
+    color: #fff;
+  }
+  .section_our_team .team_p {
+    color: #b4b4b4;
+    width: 85%;
+  }
+  .section_our_team--article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .section_our_team--article-item img.icon {
-        top: 35px;
-    }
-    .section_our_team--article-item .article_text_team--element {
-        margin-top: -80px;
-    }
-    .section_our_team .line {
-        display: none;
-    }
-    .section_our_clients {
-        display: none;
-    }
-    .section_form_question {
-        padding: 20px;
-        background: #131313;
-    }
-    .section_form_question form {
-        width: calc(100% - 20px);
-        padding: 0;
-    }
-    .section_form_question form h3 {
-        font-size: 1.4rem;
-    }
-    .section_form_question form .btn {
-        width: 100%;
-    }
-    .section_form_question form fieldset {
-        width: 100%;
-        padding: 0;
-    }
-    .section_form_question form fieldset .name_phone_form {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .section_our_team--article-item img.icon {
+    top: 35px;
+  }
+  .section_our_team--article-item .article_text_team--element {
+    margin-top: -80px;
+  }
+  .section_our_team .line {
+    display: none;
+  }
+  .section_our_clients {
+    display: none;
+  }
+  .section_form_question {
+    padding: 20px;
+    background: #131313;
+  }
+  .section_form_question form {
+    width: calc(100% - 20px);
+    padding: 0;
+  }
+  .section_form_question form h3 {
+    font-size: 1.4rem;
+  }
+  .section_form_question form .btn {
+    width: 100%;
+  }
+  .section_form_question form fieldset {
+    width: 100%;
+    padding: 0;
+  }
+  .section_form_question form fieldset .name_phone_form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        margin: 0;
-    }
-    .section_form_question form fieldset .label_input {
-        margin: 20px 0;
-    }
-    .section_form_question form fieldset .label_input input {
-        width: 100%;
-        padding: 10px 0;
-    }
-    .section_form_question form fieldset input::-webkit-input-placeholder,
-    .section_form_question form fieldset textarea::-webkit-input-placeholder {
-        padding: 3px 0;
-        color: #fff;
-        font: 1.2rem "FuturaBookC";
-    }
-    .section_form_question form fieldset input:-ms-input-placeholder,
-    .section_form_question form fieldset textarea:-ms-input-placeholder {
-        padding: 3px 0;
-        color: #fff;
-        font: 1.2rem "FuturaBookC";
-    }
-    .section_form_question form fieldset input::-ms-input-placeholder,
-    .section_form_question form fieldset textarea::-ms-input-placeholder {
-        padding: 3px 0;
-        color: #fff;
-        font: 1.2rem "FuturaBookC";
-    }
-    .section_form_question form fieldset input::placeholder,
-    .section_form_question form fieldset textarea::placeholder {
-        padding: 3px 0;
-        color: #fff;
-        font: 1.2rem "FuturaBookC";
-    }
-    .section_form_question form .agreement {
-        margin: 20px 0 0;
-        width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: start;
+            flex-direction: column;
+    margin: 0;
+  }
+  .section_form_question form fieldset .label_input {
+    margin: 20px 0;
+  }
+  .section_form_question form fieldset .label_input input {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .section_form_question form fieldset input::-webkit-input-placeholder,
+  .section_form_question form fieldset textarea::-webkit-input-placeholder {
+    padding: 3px 0;
+    color: #fff;
+    font: 1.2rem "FuturaBookC";
+  }
+  .section_form_question form fieldset input:-ms-input-placeholder,
+  .section_form_question form fieldset textarea:-ms-input-placeholder {
+    padding: 3px 0;
+    color: #fff;
+    font: 1.2rem "FuturaBookC";
+  }
+  .section_form_question form fieldset input::-ms-input-placeholder,
+  .section_form_question form fieldset textarea::-ms-input-placeholder {
+    padding: 3px 0;
+    color: #fff;
+    font: 1.2rem "FuturaBookC";
+  }
+  .section_form_question form fieldset input::placeholder,
+  .section_form_question form fieldset textarea::placeholder {
+    padding: 3px 0;
+    color: #fff;
+    font: 1.2rem "FuturaBookC";
+  }
+  .section_form_question form .agreement {
+    margin: 20px 0 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
         -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-    .section_form_question form .agreement input {
-        margin-right: 10px;
-    }
-    .section_form_question form .agreement label {
-        color: #b4b4b4;
-    }
-    .section_contacts {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            justify-content: flex-start;
+  }
+  .section_form_question form .agreement input {
+    margin-right: 10px;
+  }
+  .section_form_question form .agreement label {
+    color: #b4b4b4;
+  }
+  .section_contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        width: calc(100% - 20px);
-        background: none;
-        padding: 20px;
-    }
-    .section_contacts h3 {
-        padding: 20px 0;
-        width: 85%;
-        font-size: 1.1rem;
-    }
-    .section_contacts .icons img {
-        width: 40px;
-    }
-    .section_contacts img {
-        width: calc(100% - 20px);
-        -webkit-box-ordinal-group: 0;
+            flex-direction: column;
+    width: calc(100% - 20px);
+    background: none;
+    padding: 20px;
+  }
+  .section_contacts h3 {
+    padding: 20px 0;
+    width: 85%;
+    font-size: 1.1rem;
+  }
+  .section_contacts .icons img {
+    width: 40px;
+  }
+  .section_contacts img {
+    width: calc(100% - 20px);
+    -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
-        order: -1;
-    }
-    footer {
-        display: none;
-    }
-    .text_after_section {
-        display: none;
-    }
+            order: -1;
+  }
+  footer {
+    display: none;
+  }
+  .text_after_section {
+    display: none;
+  }
 }
-
-
 /*# sourceMappingURL=style_mobile.css.map */

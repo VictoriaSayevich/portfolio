@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+$font-first: 'Carrois Gothic SC',
+sans-serif;
+$font-second: 'Manjari',
+sans-serif;
+$first-color: #1c2533;
+$second-color: #750008;
+$background-color: #f2f5fa;
+$background-color-main: #fff;
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 50%;
+    color: $first-color;
+    background: $background-color;
+    box-shadow: 3px 3px 20px 2px #ccc;
+    h1 {
+        font: 2rem $font-first;
+    }
+    h2 {
+        font: bold 1.5rem $font-first;
+        margin: 0;
+    }
+    h3 {
+        font: 1.3rem $font-first;
+    }
+    p {
+        font: 1rem $font-second;
+    }
+    a {
+        text-decoration: none;
+        font: 1rem $font-second;
+        color: $first-color;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-second;
+    background: $background-color-main;
+    padding: 30px 0;
+    h1 {
+        margin: 0;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid $first-color;
+        overflow: hidden;
+        margin: 0 20px;
+    }
+    img {
+        width: 100px;
+    }
+    .my_name {
+        &--contacts {
+            margin: 10px 0 0 0;
+            a {
+                font-size: 0.9rem;
+                i {
+                    font-size: 2rem;
+                    margin: 0 5px 0 0;
+                }
+                &:hover {
+                    color: $second-color;
+                }
+            }
+        }
+    }
+}
+
+main {
+    margin: 0 auto;
+    background: $background-color-main;
+    padding: 20px 40px;
+}
+
+.education {
+    &--card {
+        &-element {
+            margin: 10px 0;
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+            p {
+                margin: 0;
+                padding: 5px 0;
+            }
+        }
+    }
+}
+
+.contacts {
+    &--menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0 20px;
+            i {
+                font-size: 1.5rem;
+                color: $first-color;
+            }
+        }
+    }
+}
+
+footer {
+    padding: 10px 40px;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}

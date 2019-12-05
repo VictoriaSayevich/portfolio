@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manjari&display=swap");
+body {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 50%;
+  color: #1c2533;
+  background: #f2f5fa;
+  -webkit-box-shadow: 3px 3px 20px 2px #ccc;
+          box-shadow: 3px 3px 20px 2px #ccc;
+}
+
+body h1 {
+  font: 2rem "Carrois Gothic SC", sans-serif;
+}
+
+body h2 {
+  font: bold 1.5rem "Carrois Gothic SC", sans-serif;
+  margin: 0;
+}
+
+body h3 {
+  font: 1.3rem "Carrois Gothic SC", sans-serif;
+}
+
+body p {
+  font: 1rem "Manjari", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  font: 1rem "Manjari", sans-serif;
+  color: #1c2533;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Manjari", sans-serif;
+  background: #fff;
+  padding: 30px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #1c2533;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+header img {
+  width: 100px;
+}
+
+header .my_name--contacts {
+  margin: 10px 0 0 0;
+}
+
+header .my_name--contacts a {
+  font-size: 0.9rem;
+}
+
+header .my_name--contacts a i {
+  font-size: 2rem;
+  margin: 0 5px 0 0;
+}
+
+header .my_name--contacts a:hover {
+  color: #750008;
+}
+
+main {
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+}
+
+.education--card-element {
+  margin: 10px 0;
+}
+
+.education--card-element h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.education--card-element p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.contacts--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacts--menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.contacts--menu li i {
+  font-size: 1.5rem;
+  color: #1c2533;
+}
+
+footer {
+  padding: 10px 40px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
