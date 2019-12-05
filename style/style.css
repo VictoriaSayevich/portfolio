@@ -5,8 +5,9 @@ body {
   margin: 0 auto;
   max-width: 100%;
   width: 80%;
+  height: 100vh;
   color: #1c2533;
-  background: #f2f5fa;
+  background: #fff;
   -webkit-box-shadow: 3px 3px 20px 2px #ccc;
           box-shadow: 3px 3px 20px 2px #ccc;
 }
@@ -168,6 +169,8 @@ main {
 
 .slider_projects .slider_projects_container--element {
   display: none;
+  -webkit-animation: 0.5s ease-in-out;
+          animation: 0.5s ease-in-out;
 }
 
 .slider_projects .slider_projects_container--element.active {
@@ -231,11 +234,86 @@ main {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   padding: 10px 40px;
 }
 
 footer p {
   margin: 0;
   padding: 0;
+}
+
+.to-left {
+  -webkit-animation-name: left;
+          animation-name: left;
+}
+
+.from-right {
+  -webkit-animation-name: right;
+          animation-name: right;
+}
+
+.to-right {
+  -webkit-animation-name: right;
+          animation-name: right;
+  animation-direction: reverse;
+}
+
+.from-left {
+  -webkit-animation-name: left;
+          animation-name: left;
+  animation-direction: reverse;
+}
+
+@-webkit-keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .slider_projects .slider_projects_container--element-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .slider_projects .slider_projects_container--element-item .description {
+    width: 100%;
+  }
+  .slider_projects .slider_projects_container--element-item a {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

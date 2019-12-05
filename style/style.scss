@@ -13,8 +13,9 @@ body {
     margin: 0 auto;
     max-width: 100%;
     width: 80%;
+    height: 100vh;
     color: $first-color;
-    background: $background-color;
+    background: $background-color-main;
     box-shadow: 3px 3px 20px 2px #ccc;
     h1 {
         font: 2rem $font-first;
@@ -138,6 +139,7 @@ main {
         }
         &--element {
             display: none;
+            animation: 0.5s ease-in-out;
             &.active {
                 display: block;
             }
@@ -185,9 +187,65 @@ main {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     padding: 10px 40px;
     p {
         margin: 0;
         padding: 0;
+    }
+}
+
+.to-left {
+    animation-name: left;
+}
+
+.from-right {
+    animation-name: right;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+@keyframes left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .slider_projects {
+        .slider_projects_container {
+            &--element {
+                &-item {
+                    flex-direction: column;
+                    .description {
+                        width: 100%;
+                    }
+                    a {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
