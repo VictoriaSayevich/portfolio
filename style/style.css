@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0 auto;
   max-width: 100%;
-  width: 50%;
+  width: 80%;
   color: #1c2533;
   background: #f2f5fa;
   -webkit-box-shadow: 3px 3px 20px 2px #ccc;
@@ -89,6 +89,28 @@ main {
   padding: 20px 40px;
 }
 
+.education {
+  margin: 0 0 40px 0;
+}
+
+.education-header {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.education-header:hover {
+  color: #750008;
+  background: #f2f5fa;
+}
+
+.education--card {
+  display: none;
+}
+
+.education--card.active {
+  display: block;
+}
+
 .education--card-element {
   margin: 10px 0;
 }
@@ -101,6 +123,84 @@ main {
 .education--card-element p {
   margin: 0;
   padding: 5px 0;
+}
+
+.slider_projects {
+  margin: 0 0 40px 0;
+}
+
+.slider_projects h2 {
+  margin: 20px 0;
+}
+
+.slider_projects .slider_projects_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider_projects .slider_projects_container .slider_btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.slider_projects .slider_projects_container .slider_btn:first-child {
+  margin-right: 10px;
+}
+
+.slider_projects .slider_projects_container .slider_btn:last-child {
+  margin-left: 10px;
+}
+
+.slider_projects .slider_projects_container .slider_btn i {
+  color: #1c2533;
+  font-size: 2rem;
+}
+
+.slider_projects .slider_projects_container .slider_btn i:hover {
+  color: #750008;
+}
+
+.slider_projects .slider_projects_container--element {
+  display: none;
+}
+
+.slider_projects .slider_projects_container--element.active {
+  display: block;
+}
+
+.slider_projects .slider_projects_container--element-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider_projects .slider_projects_container--element-item .description {
+  width: 25%;
+}
+
+.slider_projects .slider_projects_container--element-item .description h3 {
+  margin: 0;
+}
+
+.slider_projects .slider_projects_container--element-item a {
+  width: 70%;
+}
+
+.slider_projects .slider_projects_container--element-item a img {
+  width: 100%;
+}
+
+.slider_projects .slider_projects_container--element-item a img:hover {
+  opacity: 0.7;
 }
 
 .contacts--menu {
@@ -118,12 +218,16 @@ main {
 .contacts--menu li {
   list-style: none;
   margin: 0;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .contacts--menu li i {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #1c2533;
+}
+
+.contacts--menu li i:hover {
+  color: #750008;
 }
 
 footer {

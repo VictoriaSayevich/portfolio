@@ -12,7 +12,7 @@ body {
     padding: 0;
     margin: 0 auto;
     max-width: 100%;
-    width: 50%;
+    width: 80%;
     color: $first-color;
     background: $background-color;
     box-shadow: 3px 3px 20px 2px #ccc;
@@ -81,7 +81,20 @@ main {
 }
 
 .education {
+    margin: 0 0 40px 0;
+    &-header {
+        padding: 10px 0;
+        cursor: pointer;
+        &:hover {
+            color: $second-color;
+            background: $background-color;
+        }
+    }
     &--card {
+        display: none;
+        &.active {
+            display: block;
+        }
         &-element {
             margin: 10px 0;
             h3 {
@@ -96,6 +109,61 @@ main {
     }
 }
 
+.slider_projects {
+    margin: 0 0 40px 0;
+    h2 {
+        margin: 20px 0;
+    }
+    .slider_projects_container {
+        display: flex;
+        justify-content: space-between;
+        .slider_btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            &:first-child {
+                margin-right: 10px;
+            }
+            &:last-child {
+                margin-left: 10px;
+            }
+            i {
+                color: $first-color;
+                font-size: 2rem;
+                &:hover {
+                    color: $second-color;
+                }
+            }
+        }
+        &--element {
+            display: none;
+            &.active {
+                display: block;
+            }
+            &-item {
+                display: flex;
+                justify-content: space-between;
+                .description {
+                    width: 25%;
+                    h3 {
+                        margin: 0;
+                    }
+                }
+                a {
+                    width: 70%;
+                    img {
+                        width: 100%;
+                        &:hover {
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .contacts {
     &--menu {
         display: flex;
@@ -104,10 +172,13 @@ main {
         li {
             list-style: none;
             margin: 0;
-            padding: 0 20px;
+            padding: 0 30px;
             i {
-                font-size: 1.5rem;
+                font-size: 1.8rem;
                 color: $first-color;
+                &:hover {
+                    color: $second-color;
+                }
             }
         }
     }

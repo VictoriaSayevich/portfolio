@@ -28,7 +28,7 @@
         </div>
     </header>
     <main>
-        <article class="education">
+        <section class="education">
             <div class="education-header">
                 <h2>Education</h2>
             </div>
@@ -50,18 +50,44 @@
                     <p>2021</p>
                 </div>
             </div>
-        </article>
-        <article class="contacts">
+        </section>
+        <section class="slider_projects">
+            <h2>Projects</h2>
+            <div class="slider_projects_container">
+                <button class="slider_btn"><i class="fas fa-chevron-circle-left"></i></button>
+                <div class="slider_projects_container--element">
+                    <div class="slider_projects_container--element-item">
+                        <article class="description">
+                            <h3>Theyallow</h3>
+                            <p>Some description</p>
+                        </article>
+                        <a href="./projects/theyallow/index.html"><img src="./assets/theyallow.png" alt="Theyallow" title="Theyallow project"></a>
+                    </div>
+                </div>
+                <div class="slider_projects_container--element active">
+                    <div class="slider_projects_container--element-item">
+                        <article class="description">
+                            <h3>Repair-design-project</h3>
+                            <p>Some description</p>
+                        </article>
+                        <a href="./projects/design-repair/index.html"><img src="./assets/repair_design_project.png" alt="Theyallow" title="Theyallow project"></a>
+                    </div>
+                </div>
+                <button class="slider_btn"><i class="fas fa-chevron-circle-right"></i></button>
+            </div>
+        </section>
+        <section class="contacts">
             <ul class="contacts--menu">
                 <li><a href="mailto:victoriasayevich@gmail.com"><i class="fas fa-envelope"></i></a></li>
                 <li><a href="skype:VictoriaSayevich?call"><i class="fab fa-skype"></i></a></li>
                 <li><a href="tg://msg?text=<?php echo urlencode( '<VictoriaSayevich>' ); ?>"><i class="fab fa-telegram-plane"></i></a></li>
             </ul>
-        </article>
+        </section>
     </main>
     <footer>
         <p>&copy; Victoria Sayevich rsschool-portfolio-2019</p>
     </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>
